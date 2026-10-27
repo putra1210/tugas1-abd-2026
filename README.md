@@ -227,10 +227,8 @@ Buka JupyterLab pada `http://localhost:8888/lab`. Konfigurasi Dockerfile menjala
 
 ## AI Disclosure Statement
 
-Isi bagian ini sebelum pengumpulan akhir.
+**Alat AI yang digunakan:** ChatGPT (OpenAI).
 
-> Alat AI yang digunakan: [nama alat].
->
-> Bagian yang dibantu: [contoh: penjelasan error Polars atau review dokumentasi].
->
-> Verifikasi yang dilakukan: [contoh: menjalankan ulang kode, memeriksa dokumentasi resmi, dan memahami setiap cell].
+**Bagian yang dibantu:** AI digunakan untuk membantu memeriksa dan memperbaiki kode yang mengalami error, memberikan saran penyesuaian kode Polars dan DuckDB, serta membantu memahami dan mendokumentasikan proses data cleaning.
+
+**Verifikasi yang dilakukan:** Kode dijalankan dan diperiksa secara langsung melalui JupyterLab menggunakan dataset Indonesian Religious Corpus. Hasil profiling, missing values, outlier, deduplikasi, validasi, dan penyimpanan Parquet diperiksa berdasarkan output yang dihasilkan.
